@@ -76168,72 +76168,74 @@ A.alS.prototype={
 $1(a){},
 $S:6}
 A.alT.prototype={
-$0(){var s,r=this,q=null,p="Success",o=new A.Hj()
+$0(){var s,r,q=this,p=null,o="Success",n=new A.Hj()
 new A.cQ().cR("Sending request...",0)
-s=r.d
-switch(r.a.d.toLowerCase()){case"charperson":o.fh(A.a_(["id",r.b.a,"chairmanStatus","rejected","chairmanComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+s=q.d
+switch(q.a.d.toLowerCase()){case"charperson":r=B.c.cb(q.c.a.a)
+n.fh(A.a_(["id",q.b.a,"chairmanStatus","rejected","facultyStatus","rejected","chairmanComments",r,"facultyComments",r],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"librarian":o.fh(A.a_(["id",r.b.a,"libraryStatus","rejected","libraryComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"librarian":n.fh(A.a_(["id",q.b.a,"libraryStatus","rejected","libraryComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"dean of students":o.fh(A.a_(["id",r.b.a,"deanStatus","rejected","deanComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"dean of students":n.fh(A.a_(["id",q.b.a,"deanStatus","rejected","deanComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"director of sports & games":o.fh(A.a_(["id",r.b.a,"sportsStatus","rejected","sportsComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"director of sports & games":n.fh(A.a_(["id",q.b.a,"sportsStatus","rejected","sportsComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"house keeper":o.fh(A.a_(["id",r.b.a,"houseKeeperStatus","rejected","houseKeeperComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"house keeper":n.fh(A.a_(["id",q.b.a,"houseKeeperStatus","rejected","houseKeeperComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"registrar":o.fh(A.a_(["id",r.b.a,"registrarStatus","rejected","registrarComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"registrar":n.fh(A.a_(["id",q.b.a,"registrarStatus","rejected","registrarComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"students\u2019 finance office":o.fh(A.a_(["id",r.b.a,"financeStatus","rejected","financeComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"students\u2019 finance office":n.fh(A.a_(["id",q.b.a,"financeStatus","rejected","financeComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-default:A.cb(s,!1).cZ(q)}},
+default:A.cb(s,!1).cZ(p)}},
 $S:0}
 A.alU.prototype={
-$0(){var s,r=this,q=null,p="Success",o=new A.Hj()
+$0(){var s,r,q=this,p=null,o="Success",n=new A.Hj()
 new A.cQ().cR("Sending request...",0)
-s=r.d
-switch(r.a.d.toLowerCase()){case"charperson":o.fh(A.a_(["id",r.b.a,"chairmanStatus","completed","chairmanComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+s=q.d
+switch(q.a.d.toLowerCase()){case"charperson":r=B.c.cb(q.c.a.a)
+n.fh(A.a_(["id",q.b.a,"chairmanStatus","competed","facultyStatus","competed","chairmanComments",r,"facultyComments",r],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"librarian":o.fh(A.a_(["id",r.b.a,"libraryStatus","completed","libraryComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"librarian":n.fh(A.a_(["id",q.b.a,"libraryStatus","completed","libraryComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"dean of students":o.fh(A.a_(["id",r.b.a,"deanStatus","completed","deanComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"dean of students":n.fh(A.a_(["id",q.b.a,"deanStatus","completed","deanComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"director of sports & games":o.fh(A.a_(["id",r.b.a,"sportsStatus","completed","sportsComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"director of sports & games":n.fh(A.a_(["id",q.b.a,"sportsStatus","completed","sportsComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"house keeper":o.fh(A.a_(["id",r.b.a,"houseKeeperStatus","completed","houseKeeperComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"house keeper":n.fh(A.a_(["id",q.b.a,"houseKeeperStatus","completed","houseKeeperComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"registrar":o.fh(A.a_(["id",r.b.a,"registrarStatus","completed","registrarComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"registrar":n.fh(A.a_(["id",q.b.a,"registrarStatus","completed","registrarComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-case"students\u2019 finance office":o.fh(A.a_(["id",r.b.a,"financeStatus","completed","financeComments",B.c.cb(r.c.a.a)],t.N,t.z))
-new A.cQ().cR(p,0)
-A.cb(s,!1).cZ(q)
+case"students\u2019 finance office":n.fh(A.a_(["id",q.b.a,"financeStatus","completed","financeComments",B.c.cb(q.c.a.a)],t.N,t.z))
+new A.cQ().cR(o,0)
+A.cb(s,!1).cZ(p)
 break
-default:A.cb(s,!1).cZ(q)}},
+default:A.cb(s,!1).cZ(p)}},
 $S:0}
 A.alQ.prototype={
 $1(a){return A.G8(null,B.bj,new A.f0(new A.alP(this.a),null),B.V,B.V,B.f9,null)},
